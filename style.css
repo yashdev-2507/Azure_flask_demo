@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to bottom, #111, #333);
+    color: white;
+    overflow: hidden;
+}
+
+.container {
+    text-align: center;
+}
+
+canvas {
+    background: linear-gradient(to bottom, #444, #111);
+    border: 3px solid #00f0ff;
+    border-radius: 12px;
+    display: block;
+    margin: 10px auto;
+}
+
+#score {
+    font-size: 20px;
+    margin-top: 10px;
+}

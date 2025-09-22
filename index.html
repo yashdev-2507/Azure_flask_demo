@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Catch the Falling Blocks</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<div class="container">
+    <h1>🧺 Catch the Blocks!</h1>
+    <p>Use ← → keys to move your basket. Catch green blocks, avoid red blocks!</p>
+    <canvas id="gameCanvas" width="400" height="600"></canvas>
+    <p id="scoreboard">Score: 0 | Level: 1</p>
+</div>
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
